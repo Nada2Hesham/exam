@@ -1,0 +1,135 @@
+body{
+    background-color: black;
+}
+/****************** navbar *************************/
+.wholeNav{
+    position: fixed;
+    left:-250px;
+    transition: all 1.2s;
+    z-index: 1;
+}
+.nav{
+    width: 60px;
+    height: 100vh;
+    background-color: white;
+}
+
+i{
+    cursor: pointer;
+}
+.i1{
+    font-size: 30px;
+}
+.i2{
+    font-size: 20px;
+}
+.logo{
+    width: 30px;
+    height: 50px;
+}
+.restNav{
+    width: 250px;
+    height: 100vh;
+    background-color: black;
+    display: none;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    color: #ff655c;
+}
+.f:hover{
+    color: #ff655c;
+}
+.f{
+    color: white;
+    margin-left: 20px;
+}
+.a{
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+.links{
+    width: 200px;
+    height: 270px;
+    position: relative;
+    
+}
+/**** animation ***/
+.a1{
+    position: absolute;
+    top: 270px;
+}
+@keyframes a1{
+    to{ top: 0}
+}
+.a2{
+    position: absolute;
+    top: 270px;
+}
+@keyframes a2{
+    to{ top: 45px}
+}
+.a3{
+    position: absolute;
+    top: 270px;
+}
+@keyframes a3{
+    to{ top: 90px}
+}
+.a4{
+    position: absolute;
+    top: 270px;
+}
+@keyframes a4{
+    to{ top: 135px}
+}
+.a5{
+    position: absolute;
+    top: 270px;
+}
+@keyframes a5{
+    to{ top: 180px}
+}
+.a6{
+    position: absolute;
+    top: 270px;
+}
+@keyframes a6{
+    to{ top: 225px}
+}
+/************************/
+/***************** rest of page ********/
+/******* search & contact us ***************/
+.input{
+background-color: transparent;
+border-top: 0;
+border-left:0 ;
+border-right: 0;
+border-bottom: 0.5px solid rgba(255, 255, 255, 0.62) ;
+padding: 10px;
+font-size: 18px;
+}
+
+/**********************page content **********************/
+.review{
+    width: 100%;
+    height:100%;
+    padding: 1rem;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ffffffbf;
+    transform: translateY(100%);
+    transition: all 1s
+}
+.film{
+    position: relative;
+    overflow: hidden;
+}
+.film:hover .review{
+    transform: translateY(0%);
+}
